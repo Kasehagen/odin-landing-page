@@ -16,22 +16,21 @@ ul {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-}
-
-.links {
-  display: flex;
-  
 }
 
 .hero {
-
+  padding: 100px 0px;
+  height: 125px;
+  display: flex;
 }
 
-.content {
-
+.hero-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.footer {
-
+.hero-image {
+  flex: 1;
 }
